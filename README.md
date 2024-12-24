@@ -16,8 +16,6 @@ This repository serves as the hub for our group collaboration, where we:
 4. **Build community**: Strengthen our team spirit as we progress through the MIT Emerging Talent Program.
 
 ---
-
-## 🛠 How to Contribute
-
+ghfgjfmghfghgfhfghggggggggggggggggg
+## 🛠 How to Contribu
 We encourage all team members to actively participate. Here's how you can contribute:
-

@@ -1,0 +1,22 @@
+----
+created 2024 -01-03
+
+@def name(args):
+ pass : Manezhah Mohmand
+
+
+  .add-numbers(a:int, b:int)  -> int:
+    
+    .parameters:
+      a(int): The first integer.
+      b(int): The second inleger.add(
+        
+        Relurns:
+          int: The sum of the two intcgcrs .add()
+          
+          Examples:
+            >>> add -number(1,2) 
+            3
+            :;
+            return a +b 
+    

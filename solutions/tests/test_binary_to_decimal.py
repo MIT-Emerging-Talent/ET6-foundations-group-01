@@ -2,15 +2,20 @@
 # -*- coding: utf-8 -*-
 
 """
-created on 2025-12-29
-@author:Alemayehu-Desta
+Test module for the binary_to_decimal function.
+
+Test categories:
+- Standard cases: Valid binary strings (e.g. "101", "1111") converting to decimal.
+- Edge cases: Handles empty strings and invalid characters, raising appropriate ValueError messages.
+- Defensive tests: Function raises a ValueError for non-string inputs and invalid binary characters.
+
+Created on 2025-12-29
+@author: Alemayehu Desta
 """
 
 import unittest
 
 from solutions.binary_to_decimal import binary_to_decimal
-
-"""Unit tests for the binary_to_decimal module."""
 
 
 class TestBinaryToDecimal(unittest.TestCase):

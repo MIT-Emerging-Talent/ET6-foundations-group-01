@@ -1,8 +1,11 @@
 # The Pacific 🌊: Group Code Review Exercise
 
 Welcome to **The Pacific** - a collaborative coding initiative by **Group 1** of
-the MIT Emerging Talent Program. Together, we aim to code, learn, and grow as developers
-while fostering a supportive and inspiring team environment.
+the MIT Emerging Talent Program. Together, we aim to code, learn, and grow as
+developers while fostering a supportive and inspiring team environment.
+
+<img src="./collaboration\guide\assets\the_pacific.gif" alt="The Pacific"
+style="width: 100%; height: auto;">
 
 ---
 

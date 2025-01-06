@@ -2,15 +2,21 @@
 # -*- coding: utf-8 -*-
 
 """
-created on 2025-12-25
+A module for converting binary strings to their decimal equivalents.
+
+Module contents:
+    - binary_to_decimal: Converts a binary string to its decimal representation.
+
+Created on 2025-12-25
 @author: Alemayehu_Desta
 """
 
 
 def binary_to_decimal(binary_str: str) -> int:
-    """Converts a binary string to its decimal equivalent.
+    """
+    Converts a binary string to its decimal equivalent.
 
-    Args:
+    Parameters:
         binary_str (str): The binary string to convert. Must consist of '0' and '1' only.
 
     Returns:
@@ -22,13 +28,11 @@ def binary_to_decimal(binary_str: str) -> int:
     Examples:
         >>> binary_to_decimal("101")
         5
-        >>> binary_to_decimal("")  # Raises ValueError: Input must not be empty.
+        >>> binary_to_decimal("")
         Traceback (most recent call last):
-        ...
         ValueError: Input must not be empty.
-        >>> binary_to_decimal("102")  # Raises ValueError: Input must only contain '0' and '1'.
+        >>> binary_to_decimal("102")
         Traceback (most recent call last):
-        ...
         ValueError: Input must only contain '0' and '1'.
     """
     if not isinstance(binary_str, str):

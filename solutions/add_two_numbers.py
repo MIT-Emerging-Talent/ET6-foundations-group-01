@@ -1,39 +1,27 @@
-"""
-A module for calculating the sum of integer.
-
-Module contents:
-    - sum_of_digits: A function to calculate the sum of 2 digits.
-
-Created 2024-01-03
-
-@author: Yurii Spizhovyi
-"""
+t
+from solutions.add_numbers import add_numbers
 
 
-def add_numbers(a: int, b: int) -> int:
-    """Adds two numbers and returns their sum.
+class TestAddNumbers(unittest.TestCase):
+    def test_positive_numbers(self):
+        self.assertEqual(add_numbers(1, 2), 3)
 
-    Parameters:
-    a(int): The first integer
-    b(int): The second integer
+    def test_negative_numbers(self):
+        self.assertEqual(add_numbers(-1, -2), -3)
 
-    Returns:
-    int: The sum of the two integers
+    def test_mixed_numbers(self):
+        self.assertEqual(add_numbers(-1, 2), 1)
 
-    Raises:
-        TypeError: If the input contains non-integer elements.
+    def test_zero(self):
+        self.assertEqual(add_numbers(0, 0), 0)
 
-    Examples:
-    >>> add_numbers(1, 2)
-    3
-    >>> add_numbers(-1, 2)
-    1
+    def test_large_numbers(self):
+        self.assertEqual(add_numbers(10**6, 10**6), 2 * 10**6)
 
-    >>> add_numbers("1", 2)
-    Traceback (most recent call last):
-    TypeError: Inputs must be integers.
-    """
+    def test_invalid_input(self):
+        with self.assertRaises(TypeError):
+            add_numbers("1", 2)
 
-    if not isinstance(a, int) or not isinstance(b, int):
-        raise TypeError("Inputs must be integers.")
-    return a + b
+
+if __name__ == "__main__":
+    unittest.main()

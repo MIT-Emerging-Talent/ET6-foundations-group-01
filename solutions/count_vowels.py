@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on 2024-12-27
+A module for counting vowels in a given string.
 
-@author: Yuri Spizhovyi
+Module contents:
+    - count_vowels: A function to count the number of vowels in a string (case-insensitive).
+
+Created on 2024-12-27
+Author: Yurii Spizhovyi
 """
 
 
@@ -35,12 +39,8 @@ def count_vowels(text: str) -> int:
     3
     """
 
-    # Check if input is a string
     assert isinstance(text, str), "Input should be a string"
 
     list_vowels = ["a", "e", "i", "o", "u", "y"]
-    count = 0
-    for char in text:
-        if char.lower() in list_vowels:
-            count += 1
+    count = sum(1 for char in text if char.lower() in list_vowels)
     return count

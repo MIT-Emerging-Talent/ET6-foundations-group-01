@@ -5,7 +5,10 @@ Created 01-11-2025
 @author: Mithchell Cenatus
 
 This class contains unit tests for the sum_of_square function.
-The function gets a list of integers and/or floats as input and returns the sum of the squares of its elements.
+The function gets a list of integers and/or floats as input
+and returns the sum of the squares of its elements,
+handles both positive and negative numbers, and raises errors for invalid inputs.
+
 """
 
 import unittest

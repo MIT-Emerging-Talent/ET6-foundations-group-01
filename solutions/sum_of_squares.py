@@ -2,10 +2,19 @@
 # -*- coding: utf-8 -*-
 
 """
+This module provides a function to Calculate the sum of the squares of a list of numbers.
+
+Module contents:
+        - sum_of_square : A function to calculate the sum of the squares of a list of numbers
+
+        This function takes a list of integers and/or floating-point numbers as input
+        and returns the sum of the squares of its elements. Squaring a number means
+        raising it to the power of 2. The function handles both positive and negative
+        numbers, and raises errors for invalid inputs.
+
 Created 01-11-2025
 @Author: Mithchell Cenatus
 
-This module provides a function to calculate the sum of the squares of the numbers in a list.
 """
 
 from typing import Union
@@ -31,7 +40,7 @@ def sum_of_square(numbers: list[Union[int, float]]) -> Union[int, float, None]:
         >>> sum_of_square([2.5, 1.1, 4])
         23.46
         >>> sum_of_square([-5.3, 9, -11, 2])
-        23.09
+        234.09
         >>> sum_of_square([])
         0
     """

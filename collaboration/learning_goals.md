@@ -1,4 +1,3 @@
-
 # Learning Goals
 
 ## Group Objectives
@@ -72,7 +71,7 @@ improve processes.
 
 - Engage in collaborative coding through real-world projects & code reviews.  
 - Strengthen problem-solving by tackling complex challenges in group settings.  
-- Build proficiency in debugging and testing using structured methodologies.  
+- Build proficiency in debugging and testing using structured methodologies.
 - Enhance skills in providing constructive feedback during peer code reviews.  
 - Focus on writing clean, and maintainable code that adheres to standards.  
 

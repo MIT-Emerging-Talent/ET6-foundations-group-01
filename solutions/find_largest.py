@@ -2,7 +2,7 @@
 Finds the Largest Number in a List
 This file contains a function to find the largest number in a given list of numbers.
 Created on 01/10/2025
-Author: Khadija Ramlawi
+Author: Khadija Al Ramlawi
 """
 
 

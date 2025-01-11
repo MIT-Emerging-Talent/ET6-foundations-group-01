@@ -33,9 +33,9 @@ def even_numbers(numbers: list) -> bool:
     # Assertions for input validation
     assert numbers is not None, "Input cannot be None"
     assert isinstance(numbers, list), "Input should be a list"
-    assert all(isinstance(num, int) for num in numbers), (
-        "All elements in the list must be integers"
-    )
+    assert all(
+        isinstance(num, int) for num in numbers
+    ), "All elements in the list must be integers"
 
     # Check if all elements are even
     return all(num % 2 == 0 for num in numbers)

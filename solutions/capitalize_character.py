@@ -35,9 +35,9 @@ def capitalize_character(text: str, char_to_capitalize: str) -> str:
     """
     assert isinstance(text, str), "Input should be a string."
     assert isinstance(char_to_capitalize, str), "Input should be a string."
-    assert len(char_to_capitalize) == 1, (
-        "Character to capitalize must be a single character."
-    )
+    assert (
+        len(char_to_capitalize) == 1
+    ), "Character to capitalize must be a single character."
 
     capitalized_text = ""
 

@@ -2,7 +2,7 @@
 Calculates the Median of a List of Numbers
 This file contains a function to calculate the median of a list of numbers.
 Created on 01/03/2025
-Author: Khadija Al Ramlawi
+Author: Khadija Ramlawi
 """
 
 

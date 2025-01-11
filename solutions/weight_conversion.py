@@ -53,9 +53,9 @@ def kilograms_to_pounds(kilograms: float) -> float:
         >>> kilograms_to_pounds(50)
         110.231
     """
-    assert isinstance(kilograms, (int, float)), (
-        "Input must be a number (integer or float)."
-    )
+    assert isinstance(
+        kilograms, (int, float)
+    ), "Input must be a number (integer or float)."
     pounds = kilograms * KG_TO_LBS_CONVERSION_FACTOR
     # Rounds to 3 decimal places
     return round(pounds, 3)
@@ -86,9 +86,9 @@ def pounds_to_kilograms(pounds: float) -> float:
         >>> pounds_to_kilograms(110.231)
         50.0
     """
-    assert isinstance(pounds, (int, float)), (
-        "Input must be a number (integer or float)."
-    )
+    assert isinstance(
+        pounds, (int, float)
+    ), "Input must be a number (integer or float)."
     kilograms = pounds * LBS_TO_KG_CONVERSION_FACTOR
     # Rounds to 3 decimal places
     return round(kilograms, 3)

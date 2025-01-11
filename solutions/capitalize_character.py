@@ -3,7 +3,7 @@ Capitalize character Function
 
 Created on 12/28/2024
 
-Author : Khadija Al Ramlawi
+Author : Khadija Ramlawi
 """
 
 

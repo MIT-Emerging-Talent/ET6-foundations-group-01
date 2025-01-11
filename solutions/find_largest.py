@@ -27,8 +27,8 @@ def find_largest(numbers: list) -> int:
     """
     assert isinstance(numbers, list), "Input must be a list."
     assert len(numbers) > 0, "List cannot be empty."
-    assert all(
-        isinstance(num, (int, float)) for num in numbers
-    ), "All elements must be numeric."
+    assert all(isinstance(num, (int, float)) for num in numbers), (
+        "All elements must be numeric."
+    )
 
     return max(numbers)

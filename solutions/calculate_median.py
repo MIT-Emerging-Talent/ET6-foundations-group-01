@@ -26,9 +26,9 @@ def calculate_median(numbers: list) -> float:
         5.0
     """
     assert isinstance(numbers, list), "Input must be a list."
-    assert all(
-        isinstance(num, (int, float)) for num in numbers
-    ), "All elements in the list must be numeric."
+    assert all(isinstance(num, (int, float)) for num in numbers), (
+        "All elements in the list must be numeric."
+    )
     assert len(numbers) > 0, "Input list cannot be empty."
 
     sorted_numbers = sorted(numbers)

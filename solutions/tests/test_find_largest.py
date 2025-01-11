@@ -3,7 +3,7 @@ Unit test for Find Largest Number Function
 
 Created on 01/10/2025
 
-Author : Khadija  Ramlawi
+Author : Khadija Al Ramlawi
 """
 
 import unittest

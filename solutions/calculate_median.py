@@ -14,9 +14,9 @@ def calculate_median(numbers: list) -> float:
     Returns:
         float: The median value of the list.
     Raises:
-        AssertionError: If the input is not a list.
-        AssertionError: If the input contains non-numeric values.
-        AssertionError: If the input list is empty.
+        AssertionError: If the input is not a list
+        AssertionError: If the input contains non-numeric values
+        AssertionError: If the input list is empty
     Examples:
         >>> calculate_median([1, 3, 2])
         2.0

@@ -16,20 +16,29 @@ def convert_salary(hourly: float, hours_per_week: float = 40) -> tuple:
         hours_per_week: Amount of hours per week is set to 40. Added for flexibility.
 
     Returns:
-        float: Monthly and yearly salary.
+        tuple: Monthly and yearly salary rounded to 2 decimals.
 
     Raises:
         AssertionError: If the input is not a float or salary is negative.
 
     >>> convert_salary(16.5)
-    2857.8 34320.0
+    (2857.8, 34320.0)
 
     >>> convert_salary(25)
-    4333.0 51960.0
+    (4330.0, 52000)
 
-    >>> convert_salary(-40)
+    >>> convert_salary(1000000)
+    (173200000.0, 2080000000)
+
+    >>> convert_salary(0.1)
+    (17.32, 208.0)
+
+    >>> convert_salary(16.5, 100)
+    (7144.5, 85800.0)
+
+    >>> convert_salary(-8)
     Traceback (most recent call last):
-    AssertionError: Salary cannot be negative.
+    AssertionError: Salary can not be negative.
 
     >>> convert_salary("7")
     Traceback (most recent call last):
@@ -37,7 +46,7 @@ def convert_salary(hourly: float, hours_per_week: float = 40) -> tuple:
 
     """
 
-    assert isinstance(hourly, float), "Inputs must be float."
+    assert isinstance(hourly, (float, int)), "Inputs must be float."
     assert hourly > 0, "Salary can not be negative."
 
     monthly_salary = hourly * hours_per_week * 4.33

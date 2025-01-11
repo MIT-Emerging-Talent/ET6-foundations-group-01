@@ -5,7 +5,7 @@ Created : 01-09-2025
 @author : Mithchell Lawensky Cenatus
 
 This function asks the user to provide a list of words
-and returns the words sorted in alphabetical order, placing special characters before regular words
+and returns the words sorted in alphabetical order, placing special characters before regular words.
 
 """
 

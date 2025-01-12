@@ -3,17 +3,17 @@ Capitalize character Function
 
 Created on 12/28/2024
 
-Author : Khadija Al Ramlawi
+Author : Khadija Ramlawi
 """
 
 
 def capitalize_character(text: str, char_to_capitalize: str) -> str:
     """
-    Capitalizes a specified character in a given string
+    Capitalizes a specified character in a given string.
 
     Parameters:
-        text (str): The string in which the character will be capitalized.
-        char_to_capitalize (str): The character to capitalize. Must be a single character.
+        text (str): The string in which the character will be capitalized
+        char_to_capitalize (str): The character to capitalize. Must be a single character
 
     Returns:
         str: The string with the specified character capitalized.

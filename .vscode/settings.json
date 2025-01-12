@@ -114,7 +114,28 @@
 
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
-
+  "cSpell.words": [
+    "Yurii",
+    "Spizhovyi",
+    "Sukhrob",
+    "Muborakshoev",
+    "Khadija",
+    "Al Ramlawi",
+    "Dmytro",
+    "Klymenko",
+    "Mykyta",
+    "Kondratiev",
+    "Olumide",
+    "Kolawole",
+    "Alemayehu",
+    "Desta",
+    "Manezha",
+    "Mohmand",
+    "Henry",
+    "Ogoe",
+    "Mithchell",
+    "Lawensky"
+  ],
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,

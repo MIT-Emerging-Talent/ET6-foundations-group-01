@@ -73,7 +73,7 @@ improve processes.
 - Strengthen problem-solving by tackling complex challenges in group settings.  
 - Build proficiency in debugging and testing using structured methodologies.
 - Enhance skills in providing constructive feedback during peer code reviews.  
-- Focus on writing clean, and maintainable code that adheres to standards.  
+- Focus on writing clean, and maintainable code that adheres to standards. 
 
 ### Khadija al Ramlawi (<kalramlawi@gmail.com>)
 

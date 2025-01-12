@@ -5,3 +5,9 @@ venv/
 *.db
 *.idea
 *.ruff_cache
+
+# Exclude specific folders or temporary files in solutions
+solutions/**/__pycache__/
+solutions/**/*.py[cod]
+solutions/tests/**/__pycache__/
+solutions/tests/**/*.py[cod]

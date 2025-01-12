@@ -39,4 +39,4 @@ def calculate_median(numbers: list) -> float:
     else:
         mid1 = sorted_numbers[n // 2 - 1]
         mid2 = sorted_numbers[n // 2]
-        return (mid1 + mid2) / 2
+        return float((mid1 + mid2) / 2)

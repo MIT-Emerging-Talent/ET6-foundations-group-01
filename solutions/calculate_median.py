@@ -35,7 +35,7 @@ def calculate_median(numbers: list) -> float:
     n = len(sorted_numbers)
 
     if n % 2 == 1:
-        return sorted_numbers[n // 2]
+        return float(sorted_numbers[n // 2])
     else:
         mid1 = sorted_numbers[n // 2 - 1]
         mid2 = sorted_numbers[n // 2]

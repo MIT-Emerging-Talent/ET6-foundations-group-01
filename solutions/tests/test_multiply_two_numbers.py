@@ -12,7 +12,7 @@ Author: Manezhah Mohmand
 """
 
 import unittest
-from ..multiply_two_numbers import multiply_two_numbers
+from solutions.multiply_two_numbers import multiply_two_numbers
 
 
 class TestMultiplyTwoNumbers(unittest.TestCase):

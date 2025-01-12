@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Test module for dividing two numbers function.
+Test module for convert an hourly wage to its equivalent monthly and yearly salaries.
 
 Created 2025-01-04
 

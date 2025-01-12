@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+Module for converting an hourly wage to its equivalent monthly and yearly salaries.
+
+Module contents:
+    - convert_salary: A function to convert an hourly wage and
+calculates the monthly and yearly salaries.
+
 Created on 2024-01-06
 
 @author: Henry Ogoe
@@ -50,6 +56,8 @@ def convert_salary(hourly: float, hours_per_week: float = 40) -> tuple:
     assert hourly > 0, "Salary can not be negative."
 
     monthly_salary = hourly * hours_per_week * 4.33
+    # 4.33 is approximate number of weeks in month
     yearly_salary = hourly * hours_per_week * 52
+    # We have 52 weeks in a year
 
     return (round(monthly_salary, 2), round(yearly_salary, 2))

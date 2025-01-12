@@ -69,9 +69,11 @@ improve processes.
 
 ### Alemayehu Kiros (<alemayehu8363@gmail.com>)
 
-- Develop speed in problem-solving.
-- Learn and apply new programming features.
-- Gain more experience in reviewing and critiquing code.
+- Engage in collaborative coding through real-world projects & code reviews.
+- Strengthen problem-solving by tackling complex challenges in group settings.
+- Build proficiency in debugging and testing using structured methodologies.
+- Enhance skills in providing constructive feedback during peer code reviews.
+- Focus on writing clean, and maintainable code that adheres to standards.
 
 ### Khadija al Ramlawi (<kalramlawi@gmail.com>)
 

@@ -5,7 +5,7 @@ Created : 01-10-2025
 @author : Mithchell Lawensky Cenatus
 
 Test module for the sort_my_words function that asks the user to provide a list of words
-and returns the words sorted in alphabetical order, placing special characters before regular words
+and returns the words sorted in alphabetical order, placing special characters before regular words.
 
 """
 
